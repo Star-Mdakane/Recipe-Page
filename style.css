@@ -1,0 +1,41 @@
+
+:root {
+    width: 100vw;
+    height: auto;
+    background-color: black;
+    position: relative;
+    --mn-container-color:hsl(0, 0%, 100%);
+    --mn-bg-color:hsl(30, 54%, 90%);
+    --mn-img-bg-color:hsl(30, 18%, 87%);
+    --mn-bold-color:hsl(30, 10%, 34%);
+    --mn-txt-color:hsl(24, 5%, 18%);
+    --mn-h3-color:hsl(14, 45%, 36%);
+    --mn-prep-h-color:hsl(332, 51%, 32%);
+    --mn-prep-color:hsl(330, 100%, 98%);
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+}
+
+
+body {
+    width: 23.5rem;
+    min-height: 100%;
+    background-color: var(--mn-bg-color);
+    margin: 0 auto;
+}
+img {
+    max-width: 100%;
+}
+.attribution {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
