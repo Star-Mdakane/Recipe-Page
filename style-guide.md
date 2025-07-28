@@ -11,17 +11,17 @@ The designs were created to the following widths:
 
 ## Colors
 
-- White: hsl(0, 0%, 100%)
+- White: --mn-container-color:hsl(0, 0%, 100%);
 
-- Stone 100: hsl(30, 54%, 90%) 1
-- Stone 150: hsl(30, 18%, 87%)2
-- Stone 600: hsl(30, 10%, 34%) 4
-- Stone 900: hsl(24, 5%, 18%) 6d
+- Stone 100: --mn-bg-color:hsl(30, 54%, 90%); 
+- Stone 150: --mn-img-bg-color:hsl(30, 18%, 87%); 
+- Stone 600: --mn-bold-color:hsl(30, 10%, 34%); 
+- Stone 900: --mn-txt-color:hsl(24, 5%, 18%);
 
-- Brown 800: hsl(14, 45%, 36%) 5d
+- Brown 800: --mn-h3-color:hsl(14, 45%, 36%); 
 
-- Rose 800: hsl(332, 51%, 32%) d
-- Rose 50: hsl(330, 100%, 98%)3
+- Rose 800: --mn-prep-h-color:hsl(332, 51%, 32%); 
+- Rose 50: --mn-prep-color:hsl(330, 100%, 98%); 
 
 ## Typography
 
